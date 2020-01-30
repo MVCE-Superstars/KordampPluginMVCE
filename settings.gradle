@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.kordamp.gradle:settings-gradle-plugin:0.31.2'
+    }
+}
+
+apply plugin: 'org.kordamp.gradle.settings'
+
+rootProject.name = 'KordmapPluginMVE'
+
+projects {
+    layout = 'standard'
+    enforceNamingConvention = false
+}
