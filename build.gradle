@@ -23,11 +23,11 @@ subprojects {
         info {
             name = project.name
             scm {
-                url = 'https://gitlab.com/foo/bar'
+                url = 'https://github.com/MVCE-Superstars/KordmapPluginMVCE'
             }
             vendor = rootProject.name
             organization {
-                url = 'https://gitlab.com/foo'
+                url = 'https://github.com/MVCE-Superstars'
             }
         }
     }
